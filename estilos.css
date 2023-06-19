@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+    font: bold;
+    padding: 10px;
+}
+
+span{
+    color: green;
+    font: bold;
+}
+
+nav{
+    height: 20px;
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    color: #333;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+}
+
+.productos{
+    height: 400px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    
+}
+
+footer i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+}
+
+.footredes {
+    display: inline-flex;
+}
