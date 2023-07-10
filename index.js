@@ -6,6 +6,14 @@ class Articulo {
     }
 }
 
+function cargoArticulos(){
+
+const nombre= prompt('Ingresar nombre del artículo: ')
+const precio= parseInt(prompt('Ingresar precio del artículo: '))
+
+return {nombre,precio};
+}
+
   // Función que suma los artículos seleccionados por el usuario
 function sumarArticulos(articulosSeleccionados) {
     let total = 0;
@@ -17,12 +25,19 @@ function sumarArticulos(articulosSeleccionados) {
     return total;
 }
 
+
   // cargo articulos para hacer la prueba
-const articulo1 = new Articulo("FiguraDC", 100);
-const articulo2 = new Articulo("FiguraMarvel", 300);
-const articulo3 = new Articulo("FiguraAnime", 600);
+
+const articulo1= cargoArticulos();
+const articulo2= cargoArticulos();
+const articulo3= cargoArticulos();
+
 
 const articulosSeleccionados = [articulo1, articulo3];
 
 const totalArts = sumarArticulos(articulosSeleccionados);
-console.log(totalArts); 
+// console.log(totalArts); 
+console.log(articulo1);
+console.log(articulo2);
+console.log(articulo3);
+alert("La suma de los productos es: " + totalArts);
