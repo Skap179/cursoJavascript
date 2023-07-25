@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -18,7 +19,7 @@ span{
 }
 
 nav{
-    height: 20px;
+    height: 40px;
     background-color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: bold;
@@ -55,3 +56,145 @@ footer i {
 .footredes {
     display: inline-flex;
 }
+
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 10px;
+    
+}
+.card{
+    height: 350px;
+    width: 30%;
+    background-color: white;
+    border: 5px solid #000;
+}
+
+.card-img1{
+    background-image: url(imgs/01-\ Batman\ arkham\ knight.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img2{
+    background-image: url(imgs/02\ -\ 2020\ superman\ 1000.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img3{
+    background-image: url(imgs/03-\ 2021\ damian\ wayne\ robin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img4{
+    background-image: url(imgs/04-\ 2021\ green\ lantern\ john\ stewart.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img5{
+    background-image: url(imgs/05-\ 2020\ flash\ dc\ rebirth.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img6{
+    background-image: url(imgs/06-\ 2022\ Joker.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img7{
+    background-image: url(imgs/07-\ capitan\ america.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img8{
+    background-image: url(imgs/08-\ Daredevil.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img9{
+    background-image: url(imgs/09-\ Hulk.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img10{
+    background-image: url(imgs/10-\ iron\ man\ 2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img11{
+    background-image: url(imgs/11-\ la\ mole.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.card-img12{
+    background-image: url(imgs/12-\ punisher\ 2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+h5{
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 7px 15px;
+    color: green;
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background: #f18707;
+    box-shadow: 0 0 10px #f18707, 0 0 40px #f18707, 0 0 80px #f18707;
+    transition-delay: 0.33s;
+}
+
+.btn :hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+
